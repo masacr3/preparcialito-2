@@ -8,9 +8,6 @@ class polinomio:
         """
         self.coeficientes = coeficientes
 
-    def __eq__(self,otro):
-        pass
-
     def __str__(self):
         str_polinomio = ""
         exponente = len(self.coeficientes)
